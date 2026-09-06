@@ -1,21 +1,22 @@
 name: firebase_performance_platform_interface
 description: A common platform interface for the firebase_performance plugin.
-version: 0.2.0+2
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 0.2.0+7
+publish_to: 'none'
+
 homepage: https://firebase.google.com/docs/perf-mon/flutter/get-started
 
 environment:
-  sdk: '^3.12.0'
-  flutter: '>=3.44.0'
+  sdk: '^3.13.0'
+  flutter: '>=3.47.0'
 
 dependencies:
-  flutterfire_internals: 
-    git: https://github.com/kumsumit/flutterfire_internals.git  
   firebase_core:
     git: https://github.com/kumsumit/firebase_core.git
   flutter:
     sdk: flutter
-  meta: ^1.18.3
+  flutterfire_internals: 
+    git: https://github.com/kumsumit/flutterfire_internals.git    
+  meta: ^1.19.0
   plugin_platform_interface:
     git: https://github.com/kumsumit/plugin_platform_interface.git
 
